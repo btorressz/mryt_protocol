@@ -30,3 +30,11 @@ The program is written in **Rust using the Anchor framework** and is tested in *
 | `calculate_apy`    | Computes the **APY (Annual Percentage Yield)** based on real earnings. |
 
 ---
+
+## ⚙️ **Deployment in Solana Playground**
+### 🏗 **Step 1: Build & Deploy the Program**
+1. Open **Solana Playground**.
+2. Click **"Build"** to compile the program.
+3. Click **"Deploy"** to deploy the program to the testnet and/or devnet.
+4. Copy the **Program ID** after deployment.
+
