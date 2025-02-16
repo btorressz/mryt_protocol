@@ -4,6 +4,12 @@
 
 📌 **MRYT (Multi-Chain Real Yield Token)** is a Solana-based **yield-bearing token** that distributes DeFi revenue to stakers. This protocol allows users to stake **LP tokens** to earn real yield, not inflationary emissions.
 
+  - MRYT is a Solana-based DeFi yield protocol that allows users to stake LP tokens to earn real yield, rather than relying on inflationary staking rewards.
+
+-  Currently, this protocol is built exclusively for Solana and only supports LP tokens as the staking asset.
+
+- 📝 Note: This protocol is designed specifically for Solana and is optimized for LP token staking. While future iterations may include multi-chain support, the current implementation is fully Solana-native.
+
 ---
 
 devnet:(https://explorer.solana.com/address/BExFhCky6QHhYsr47ji5d3PRRmCeLXR1ujhPJYa2ujsM?cluster=devnet)
