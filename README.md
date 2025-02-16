@@ -79,4 +79,11 @@ The **`StakedPosition`** struct tracks each user's individual staking activity a
 
 ---
 
+## 🔗 Future Enhancements
+- 📌 Cross-Chain Liquidity Deployment – Integrate multi-chain yield strategies.
+- 📌 NFT Staking & Rewards – Introduce NFT staking to boost yield earnings.
+- 📌 Governance DAO – Allow stakers to vote on reward allocation and yield strategies.
+
+
+
 
