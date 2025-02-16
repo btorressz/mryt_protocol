@@ -84,6 +84,12 @@ The **`StakedPosition`** struct tracks each user's individual staking activity a
 - 📌 NFT Staking & Rewards – Introduce NFT staking to boost yield earnings.
 - 📌 Governance DAO – Allow stakers to vote on reward allocation and yield strategies.
 
+---
+
+## 📜 License  
+- ⚖️ **MIT License**  
+
+
 
 
 
