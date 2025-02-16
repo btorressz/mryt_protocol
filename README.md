@@ -43,9 +43,40 @@ The program is written in **Rust using the Anchor framework** and is tested in *
 ---
 
 ## ⚙️ **Deployment in Solana Playground**
-### 🏗 **Step 1: Build & Deploy the Program**
+### 🏗 Build & Deploy the Program**
 1. Open **Solana Playground**.
 2. Click **"Build"** to compile the program.
 3. Click **"Deploy"** to deploy the program to the testnet and/or devnet.
 4. Copy the **Program ID** after deployment.
+
+---
+
+## 📝 Accounts & Data Structures
+
+### **📜 Global Config (Stores Protocol Data)**
+The **`Config`** struct manages the overall protocol state, including staking and yield distribution.
+
+- **`authority`** – The admin or DAO controlling the protocol.  
+- **`total_staked`** – The total amount of LP tokens staked in the protocol.  
+- **`total_yield`** – The accumulated yield generated from DeFi activities.  
+- **`total_mryt_supply`** – The total supply of MRYT tokens in circulation.  
+
+---
+
+### **👤 Staked Position (Per User)**
+The **`StakedPosition`** struct tracks each user's individual staking activity and enforces security constraints.
+
+- **`user`** – The wallet address of the staker.  
+- **`deposit_time`** – Timestamp of when the deposit was made, enforcing the **7-day lock period**.  
+- **`amount`** – The number of LP tokens staked by the user.  
+
+---
+
+## ⛔ **Security Features**
+- 🔹 **Withdrawal Cap** – Users can only withdraw **20% of their stake per transaction** to prevent sudden liquidity drains.  
+- 🔹 **Vesting Period** – Users **must wait 7 days** before withdrawing newly deposited funds to prevent flash loan exploits.  
+- 🔹 **No Inflationary Rewards** – Yield is generated from **real DeFi revenue**, not token emissions, ensuring sustainability.  
+
+---
+
 
